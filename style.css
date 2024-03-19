@@ -61,5 +61,15 @@ button{
     background-color: saddlebrown;
     color: wheat;
     font-weight: bold;
-    
+    cursor: pointer;
+}
+.container2{
+    padding-top: 35px;
+    display: grid;
+    grid-template-rows: repeat(3, 50px);
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+}
+.item{
+    background-color: saddlebrown;
 }
